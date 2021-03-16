@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 import './directory.styles.scss'
 const Directory = () => {
-    const [sections, setSections] = useState( [
+    const [sections] = useState( [
         {
             title: 'hats',
             imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
